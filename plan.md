@@ -9,3 +9,7 @@
 - Add the ability to create messages
 - Add mute button
 - Add Stop video button
+
+
+- npm init, express, nodemon, socket.io
+- ejs, uuid
