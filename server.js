@@ -4,6 +4,7 @@ const server = require('http').Server(app);
 const {v4: uuidv4 } = require('uuid');
 
 app.set('view engine', 'ejs');
+app.use(express.static('public'));
 
 // respond with "hello world" when a GET request is made to the homepage
 app.get('/', function (req, res) {
